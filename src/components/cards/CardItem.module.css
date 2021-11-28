@@ -1,0 +1,22 @@
+.container_item {
+  background-color: white;
+  border-radius: 10px;
+  height: 180px;
+  width: 300px;
+  margin: 20px 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  flex: 0 1 0.5;
+}
+
+.container_item_title {
+    font-size: 20px;
+    color: gray;
+}
+
+.container_item_value {
+    font-size: 25px;
+}
+
+.Cases {
+    border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+}

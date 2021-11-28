@@ -1,0 +1,17 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+     max-width: 1080px;
+}
+
+header {
+    text-align: center;
+}
+
+.maindiv {
+    background-color: rgb(185, 185, 185);
+}

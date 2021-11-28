@@ -1,0 +1,25 @@
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.item__title {
+  font-size: 20px;
+  color: rgb(146, 146, 146);
+}
+
+.cases {
+  border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+}
+
+.recovered {
+  border-bottom: 10px solid rgba(0, 255, 0, 0.5);
+}
+
+.deaths {
+    background-color: green;
+  border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+}
