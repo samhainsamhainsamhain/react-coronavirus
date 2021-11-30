@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from "react";
 import classes from "./App.module.css";
 import axios from "axios";
+import { createChart } from "lightweight-charts";
 
-import { Cards, Chart, CountryPicker } from "./components";
+import { Cards, Chart1, CountryPicker } from "./components";
 
 export default function App() {
   const [countriesData, setCountriesData] = useState([]);
   const [globalData, setGlobalData] = useState([]);
-  const [historicalsData, setHistoricalData] = useState([]);
+  const [historicalData, setHistoricalData] = useState([]);
 
   useEffect(() => {
     getData();
@@ -29,7 +30,7 @@ export default function App() {
   };
 
   const check = () => {
-    console.log(globalData);
+    console.log(historicalData);
   };
   
   return (
@@ -40,6 +41,7 @@ export default function App() {
       </header>
       <Cards globalData={globalData} />
       <button onClick={check}>Show data</button>
+      <Chart1 historicalData={historicalData}/>
     </div>
   );
 }

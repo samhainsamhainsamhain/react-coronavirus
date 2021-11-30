@@ -9,14 +9,23 @@
 }
 
 .container_item_title {
+    width: 100%;
     font-size: 20px;
     color: gray;
 }
 
 .container_item_value {
+    width: 100%;
+    display: inline-block;
     font-size: 25px;
 }
 
 .Cases {
-    border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+    border-bottom: 10px solid rgba(255, 33, 33, 0.5);
+}
+.Deaths {
+    border-bottom: 10px solid rgba(201, 22, 255, 0.5);
+}
+.Recoveries {
+    border-bottom: 10px solid rgba(251, 255, 34, 0.5);
 }
